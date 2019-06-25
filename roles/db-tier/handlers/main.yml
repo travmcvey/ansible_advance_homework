@@ -1,2 +1,12 @@
 ---
 # handlers file for db-tier
+
+- name: Start postgres
+  service:
+    name: postgresql
+    state: started
+
+- name: initialize postgres
+  command: postgresql-setup initdb
+  ignore_errors: yes
+  notify: Start postgres

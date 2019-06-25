@@ -1,2 +1,11 @@
 ---
 # tasks file for base-config
+- name: Add Repository
+  yum_repository:
+    name: "{{ item.name }}"
+    description: "{{ item.description | default('Configured with Ansible') }}"
+    file: open_three-tier-app
+    baseurl: "{{ item.baseurl }}"
+    enabled: "{{ item.enabled }}"
+    gpgcheck: "{{ item.gpgcheck }}"
+  with_items: "{{ three_tier_repos }}"

@@ -1,2 +1,6 @@
 ---
 # defaults file for lb-tier
+
+haproxy_packages:
+  - httpie
+  - haproxy
