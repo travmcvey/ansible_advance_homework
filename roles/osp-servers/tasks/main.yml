@@ -42,7 +42,7 @@
   wait_for:
     port: 22
     host: "{{ item.floating_ip.floating_ip_address }}"
-    timeout: 120
-    delay: 3
+    timeout: 300
+    delay: 60
     connect_timeout: 3
   with_items: "{{ instance_ips.results }}"
