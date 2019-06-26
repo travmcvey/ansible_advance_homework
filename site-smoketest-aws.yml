@@ -6,6 +6,11 @@
       url: "http://localhost"
       return_content: yes
     register: webpage
+
+  - name: debug webpage
+    debug:
+      var: webpage  
+
   - name: Fail if 'Ansible has done its job' is not in the page content
     fail:
       msg: Did not find the proper string in the test.
