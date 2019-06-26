@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+While we could have used a galaxy role, the main goal is to install postgres and ensure the start up script is only ran once. As the main application is a basic index.html without connecting to the DB I went with a basic postgres install that could be added on-to or replaced with a more complex galaxy model.
 
 Requirements
 ------------

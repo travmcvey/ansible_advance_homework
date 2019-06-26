@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+A simple In-memory fact gatherer for OSP to interact with the nodes for installation, etc.
 
 Requirements
 ------------

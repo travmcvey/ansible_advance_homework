@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Pre-seed module with the Homework to built the pre-reqs for OSP QA env.
 
 Requirements
 ------------

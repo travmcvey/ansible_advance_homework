@@ -1,7 +1,8 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+USE WITH CAUTION:
+  A clean up role for the OSP QA environment. WARNING: It will delete all nodes.
 
 Requirements
 ------------

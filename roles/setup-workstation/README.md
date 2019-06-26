@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+A pre-canned role for configuring the workstation as an Instance Group for the OSP environment.
 
 Requirements
 ------------

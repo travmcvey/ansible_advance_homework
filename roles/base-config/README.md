@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+An initial role to pre-configure requirements for nodes. Sets up the repositories currently.
 
 Requirements
 ------------

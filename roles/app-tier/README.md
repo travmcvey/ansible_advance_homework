@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Basic Role to install tomcat with a simple index.html that is templated with the host IP. This shows whether the LB node it trully doing it's job and configured correctly.
 
 Requirements
 ------------

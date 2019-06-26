@@ -1,7 +1,9 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+A pre-defined role for a 4 node application: 1 LB, 2 App servers, and a DB server. To modify this, the var's section needs to be adjusted.
+
+To expand on this further, we could make this set for the "defaults" then add items as a Survey to be utilized with other Apps. Since the vars was pre-filt in the exercise I decided to leave it, but wanted it documented for possible future projects.
 
 Requirements
 ------------
